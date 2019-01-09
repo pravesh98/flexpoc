@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <img class="headerLogo" src="{{imgUrl}}" />
+    <ion-title>Account & Setting</ion-title>
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <div class="a">
+      <ion-list-header class="b">
+        <h2 class="c">Account Details</h2>
+      </ion-list-header>
+      <ion-item class="d">
+        <ion-label label-ios-margin-end>First Name</ion-label>
+        <ion-label>{{user.fname}}</ion-label>
+      </ion-item>
+      <ion-item class="e">
+        <ion-label>Last Name</ion-label>
+        <ion-label>{{user.lname}}</ion-label>
+      </ion-item>
+      <ion-item class="f">
+        <ion-label>Email</ion-label>
+        <ion-label>{{user.email}}</ion-label>
+      </ion-item>
+    </div>
+  </ion-list>
+  <ion-list>
+    <div class="aa">
+      <ion-list-header class="bb" style="padding-top:2pt">
+        <h2 class="cc">Responsibility Details</h2>
+      </ion-list-header>
+      <ion-item class="dd">
+        <ion-label>Functions</ion-label>
+        <ion-label>Departments</ion-label>
+      </ion-item>
+      <ion-item class="ee">
+        <ion-label>{{user.functions}}</ion-label>
+        <ion-label>{{user.department}}</ion-label>
+      </ion-item>
+    </div>
+  </ion-list>
+  <ion-card>
+    <ion-card-content>
+      If you want to change details contact us
+    </ion-card-content>
+  </ion-card>
+</ion-content>

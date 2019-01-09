@@ -1,0 +1,105 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="master">
+  <ion-header>
+    <!-- -->
+    <ion-navbar>
+      <img class="logo" src="{{imgUrl}}" />
+      <ion-title>Place Request</ion-title>
+      <ion-buttons left>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name='menu'></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+  <ion-content>
+  <ion-grid>
+
+    <ion-col>
+        <div class="a">
+      <ion-card>
+        <ion-card-content>
+          <!-- <form [formGroup]="form" (ngSubmit)="placeRequest()">
+            
+              <ion-list-header class="b">
+                <h2 class="c">Request Details</h2>
+              </ion-list-header>
+              <ion-item class="d">
+                <ion-label>Responsible SDM</ion-label>
+                <ion-input type="text" value="" formControlName="responsible_sdm"></ion-input>
+              </ion-item>
+              <ion-item class="e">
+                <ion-label label-ios-margin-end>Request ID</ion-label>
+                <ion-input type="text" value="" formControlName="request_id"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>PPM-ID</ion-label>
+                <ion-input type="text" value="" formControlName="ppm_id"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>Requested Roles</ion-label>
+                <ion-input type="text" value="" formControlName="request_roles"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>Description</ion-label>
+                <ion-input type="text" value="" formControlName="description"></ion-input>
+              </ion-item>
+                <ion-item class="f">
+                <ion-label label-ios-margin-end>From Date</ion-label>
+                <ion-input type="text" value="" formControlName="fromDate"></ion-input>
+              </ion-item>
+                <ion-item class="f">
+                <ion-label label-ios-margin-end>To Date</ion-label>
+                <ion-input type="text" value="" formControlName="toDate"></ion-input>
+              </ion-item>
+            <button ion-button block [disabled]="!form.valid">
+              Place Request
+            </button>
+
+          </form> -->
+<form [formGroup]="form" (ngSubmit)="placeRequest()">
+            
+              <ion-list-header class="b">
+                <h2 class="c">Request Details</h2>
+              </ion-list-header>
+              <ion-item class="d">
+                <ion-label>Requester Name</ion-label>
+                <ion-input type="text" value="" formControlName="requesterName"></ion-input>
+              </ion-item>
+              <ion-item class="e">
+                <ion-label label-ios-margin-end>Service Type</ion-label>
+                <ion-input type="text" value="" formControlName="serviceType"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>Start Date</ion-label>
+                <ion-input type="text" value="" formControlName="startDate"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>End Date</ion-label>
+                <ion-input type="text" value="" formControlName="endDate"></ion-input>
+              </ion-item>
+              <ion-item class="f">
+                <ion-label label-ios-margin-end>Suggestion</ion-label>
+                <ion-input type="text" value="" formControlName="suggestion"></ion-input>
+              </ion-item>
+                <ion-item class="f">
+                <ion-label label-ios-margin-end>Comment</ion-label>
+                <ion-input type="text" value="" formControlName="comment"></ion-input>
+              </ion-item>
+               
+            <button ion-button block [disabled]="!form.valid">
+              Place Request
+            </button>
+
+          </form>
+        </ion-card-content>
+      </ion-card></div>
+    </ion-col>
+
+  </ion-grid>
+</ion-content>

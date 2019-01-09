@@ -1,0 +1,212 @@
+page-ordering {
+    .btn-color-blue {
+        display: inline-block;
+        color: redcl;
+        background-color: rgb(0, 134, 223);
+   }
+    .body {
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 100%;
+        background-size: cover;
+   }
+    .dept {
+        background-color: #0068a1;
+        height: 100px;
+        color: #FFFFFF;
+        vertical-align: middle;
+        line-height: 100px;
+   }
+    .request {
+        background-color: #569ac7;
+        height: 100px;
+        color: #FFFFFF;
+        vertical-align: middle;
+        line-height: 100px;
+   }
+    .deptText{
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 4.2rem;
+        color: #c8e8e8;
+   }
+    .requestText{
+        top:20px;
+        vertical-align: middle;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 3.2rem;
+        color: #c8e8e8;
+   }
+    .deptTopText{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+    .deptTopImg{
+        position: absolute;
+        top: 15px;
+        right: 50px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+    .message{
+        background-color: #806db0;
+        height: 150px;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .messageText{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #d1cce0;
+   }
+    .messageBottomText{
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+    .messageL{
+        background-color: #594099;
+        height: 150px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .messageR{
+        position: relative;
+        background-color: #806db0;
+        height: 150px;
+        color: #FFFFFF;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .offer{
+        position: relative;
+        background-color: #9c3591;
+        height: 150px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .offerText{
+        position: absolute;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #d9bfd6;
+   }
+    .selection{
+        position: relative;
+        background-color: #b5af09;
+        height: 150px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .selectionText{
+        position: absolute;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #e3e2ba;
+   }
+    .order{
+        position: relative;
+        background-color: #f58427;
+        height: 150px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .orderText{
+        position: absolute;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #fad3be;
+   }
+    .project{
+        position: relative;
+        background-color: #939699;
+        height: 150px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .projectText{
+        position: absolute;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #d9d9d9;
+   }
+    .projectBottomText{
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+    .projectBottomImg{
+        position: absolute;
+        bottom: 15px;
+        right: 30px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+    .todo{
+        position: relative;
+        background-color: #56c4c4;
+        height: 150px;
+        color: #FFFFFF;
+        line-height: 150px;
+   }
+    .todoL{
+        background-color: #02b0ad;
+        height: 150px;
+        width: 50%;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+   }
+    .todoText{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: 'Verdana', 'Geneva', 'sans-serif';
+        font-weight: 700;
+        font-size: 5.4rem;
+        color: #c8e8e8;
+   }
+    .todoBottomText{
+        text-align: left;
+        padding-left: 40px;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+   }
+}

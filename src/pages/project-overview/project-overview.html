@@ -1,0 +1,94 @@
+<ion-content class="body">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-lg-12 col-12>
+
+        <ion-card class="dept">
+          <ion-row>
+            <ion-col text-center>
+              <ion-img width="60" height="60" class="deptTopImg" src="./assets/imgs/icon_dept.png"></ion-img>
+            </ion-col>
+            <ion-col>
+              <p class="deptTopText">Department</p>
+              <p class="deptText">{{user.department}}</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-lg-4 col-md-4 col-12>
+        <ion-card (click)="goToProjectList();">
+          <ion-row>
+            <ion-col class="projectRedL" text-center>
+              <ion-img width="80" height="80" margin-top="80" style="background-color:#bd3c28;" src="./assets/imgs/icon_projectRed.png"></ion-img>
+            </ion-col>
+            <ion-col class="projectRedR">
+
+              <p class="projectRedText">{{ traffic.countred }}</p>
+              <p class="projectRedBottomText">Actual Project</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-4 col-md-4 col-12>
+        <ion-card (click)="goToProjectList();">
+          <ion-row>
+            <ion-col class="amberL" text-center>
+              <ion-img width="80" height="80" margin-top="80" style="background-color:#ffbb00;" src="./assets/imgs/icon_projectAmber.png"></ion-img>
+            </ion-col>
+            <ion-col class="amber">
+              <p class="amberText">{{traffic.countamber}}</p>
+              <p class="projectRedBottomText">Actual Project</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-4 col-md-4 col-12>
+        <ion-card (click)="goToProjectList();">
+          <ion-row>
+            <ion-col class="greenL" text-center>
+              <ion-img width="80" height="80" margin-top="80" style="background-color:#0a944f;" src="./assets/imgs/icon_projectGreen.png"></ion-img>
+            </ion-col>
+            <ion-col class="green">
+              <p class="greenText">{{traffic.countgreen}}</p>
+              <p class="projectRedBottomText">Actual Project</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+        <ion-col col-lg-6 col-md-6 col-12>
+            <ion-card class="pastProject">
+              <ion-row>
+                <ion-col text-center>
+                  <ion-img width="80" height="80" margin-top="30" class="projectTopImg" style="background-color:#7c79b0;" src="./assets/imgs/icon_pastProject.png"></ion-img>
+                </ion-col>
+                <ion-col>
+                  <p class="projectPastText">{{traffic.countPastProject}}</p>
+                  <p class="projectBottomText">Past Project</p>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+      <ion-col col-lg-6 col-md-6 col-12>
+        <ion-card class="nextProject">
+          <ion-row>
+            <ion-col text-center>
+              <ion-img width="80" height="80" margin-top="30" class="projectTopImg" style="background-color:#2fb8de;" src="./assets/imgs/icon_nextProject.png"></ion-img>
+            </ion-col>
+            <ion-col>
+              <p class="projectNextText">{{traffic.countNextProject}}</p>
+              <p class="projectBottomText">Next Project</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      
+    </ion-row>
+</ion-grid>
+</ion-content>

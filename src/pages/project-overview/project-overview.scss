@@ -1,0 +1,223 @@
+$color:( redcl:#FFFF00);
+page-project-overview {
+	.btn-color-blue {
+		display: inline-block;
+		color: redcl;
+		background-color: rgb(0, 134, 223);
+	}
+	.body {
+		background-repeat: no-repeat;
+		background-position: center top;
+    height: 100%;
+    background: #edf0ee;
+		background-size: cover;
+	}
+	.dept { 
+		background-color: #0068a1;
+		height: 100px;
+		color: #FFFFFF;
+		vertical-align: middle;
+		line-height: 100px;
+	}
+	.nextProject {
+		position: relative;
+		background-color: #2fb8de;
+		height: 125px;
+		color: #FFFFFF;
+		vertical-align: middle;
+		line-height: 100px;
+	}
+	.pastProject {
+		position: relative;
+		background-color: #7c79b0;
+		height: 125px;
+		color: #FFFFFF;
+		vertical-align: middle;
+		line-height: 100px;
+	}
+	.deptText {
+		position: absolute;
+		left: 20px;
+		top: 30px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 4.2rem;
+		color: #c8e8e8;
+	}
+	.deptTopText {
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.deptTopImg {
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.projectTopImg {
+		position: absolute;
+		top: 10px;
+		right: 30px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.projectNextText {
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 5.2rem;
+		color: #e8ffff;
+	}
+	.projectPastText {
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 5.2rem;
+		color: #ffffff;
+	}
+	.projectBottomText {
+		position: absolute;
+		top: 75px;
+		left: 20px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.projectRed {
+		background-color: #806db0;
+		height: 150px;
+		margin-bottom: 10px;
+		color: #FFFFFF;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 150px;
+	}
+	.projectRedText {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 5.4rem;
+		color: #ffe8e8;
+	}
+	.projectRedBottomText {
+		position: absolute;
+		top: 90px;
+		left: 20px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.projectRedL {
+		background-color: #bd3c28;
+		height: 150px;
+		color: #FFFFFF;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 150px;
+	}
+	.projectRedR {
+		position: relative;
+		background-color: #e86956;
+		height: 150px;
+		color: #FFFFFF;
+		vertical-align: middle;
+		line-height: 150px;
+	}
+	
+	
+	.amber {
+		position: relative;
+		background-color: #ffe72e;
+		height: 150px;
+		color: #FFFFFF;
+		line-height: 150px;
+	}
+	.amberL {
+		background-color: #ffbb00;
+		height: 150px;
+		width: 50%;
+		color: #FFFFFF;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 150px;
+	}
+	.amberText {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 5.4rem;
+		color: #ffffb8;
+	}
+	.amberBottomText {
+		text-align: left;
+		padding-left: 40px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.green {
+		position: relative;
+		background-color: #35c481;
+		height: 150px;
+		color: #FFFFFF;
+		line-height: 150px;
+	}
+	.greenL {
+		background-color: #0a944f;
+		height: 150px;
+		width: 50%;
+		color: #FFFFFF;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 150px;
+	}
+	.greenText {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		font-family: 'Verdana', 'Geneva', 'sans-serif';
+		font-weight: 700;
+		font-size: 5.4rem;
+		color: #edffff;
+	}
+	.greenBottomText {
+		text-align: left;
+		padding-left: 40px;
+		font-size: 1.8rem;
+		color: #FFFFFF;
+	}
+	.headerLogo {
+		margin-right: 3rem;
+		margin-top: .5rem;
+		float: right;
+	}
+	.toolbar-background {
+		color: #FFFFFF;
+		background: linear-gradient(left, #212F3D 0%, #212F3D 100%);
+	}
+	.toolbar-title,
+	ion-icon {
+		color: #FFFFFF;
+		font-size: 3.2rem;
+		margin-top: 6px;
+	}
+	ion-label {
+		color: #5B5959;
+		font-weight: bold;
+	}
+	ion-content {
+		background-color: #E4E4E1;
+		background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
+		background-blend-mode: normal, multiply;
+	}
+	
+}

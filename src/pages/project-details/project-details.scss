@@ -1,0 +1,86 @@
+$color:(
+    redcl:#FFFF00
+);
+
+page-project-details {
+    .headerLogo{
+		margin-right: 3rem;
+		margin-top: .5rem;
+		float: right;
+	}
+
+.toolbar-background
+  {
+    color: #FFFFFF;
+    background: linear-gradient(left, #212F3D 0%, #212F3D 100%);
+  }
+
+  .toolbar-title, ion-icon 
+  {
+    color: #FFFFFF ;
+    font-size : 3.2rem;
+    margin-top: 6px;
+
+  }
+  
+  ion-label
+  {
+    color: #5B5959;
+    font-weight: bold;
+  }
+
+  ion-content
+  {
+    background-color: #E4E4E1;
+     background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+    background-blend-mode: normal, multiply;  
+  }
+
+  .btn-color-red { 
+display: inline-block;  
+background-color: rgb(189, 11, 11); 
+} 
+   .btn-color-amber {
+        display: inline-block;  
+        background-color: rgb(190, 151, 20);
+     }
+     .btn-color-green {
+        display: inline-block;  
+        background-color: rgb(8, 199, 110);
+     }
+
+     .bg-project{
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(0, 134, 223);
+        padding: 25px;
+     }
+     .btn-color-blue {
+        display: inline-block;  
+        color:redcl;
+        background-color: rgb(0, 134, 223);
+     }
+          
+.pane {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+}
+.div-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#212F3D;
+    background-position: center;
+    color:rgb(255,255,255);
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+}
+
+}

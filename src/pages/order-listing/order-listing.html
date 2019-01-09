@@ -1,0 +1,38 @@
+<!--
+  Generated template for the OrderListingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list *ngFor="let data of result">
+    <ion-card>
+      <ion-item-sliding #item>
+        <ion-item>
+          <h2>Name : {{data.Name}}</h2>
+          <h2>Nessie/Salesforce : {{data.NessieSalesforce}}</h2>
+          <h2>Request ID (Fieldglass) : {{data.RequestIDFieldglass}}</h2>
+          <button ion-button medium (click)="detail(data)">
+      Offer Details
+    </button>
+        </ion-item>
+   <ion-item-options side="left">
+      <button ion-button color="secondary">ACCEPT</button>
+    </ion-item-options>
+
+    <ion-item-options side="right">
+      <button ion-button color="danger">REJECT</button>
+    </ion-item-options>
+        </ion-item-sliding>
+    </ion-card>
+  </ion-list>
+</ion-content>

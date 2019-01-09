@@ -1,0 +1,112 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="body">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-lg-12 col-12>
+
+        <ion-card class="dept">
+          <ion-row>
+            <ion-col text-center>
+              <ion-img width="50" height="50" class="deptTopImg" src="./assets/imgs/icon_dept.png"></ion-img>
+            </ion-col>
+            <ion-col>
+              <p class="deptTopText">Department</p>
+              <p class="deptText">{{user.department}}</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-lg-6 col-md-6 col-12>
+        <ion-card>
+          <ion-row>
+            <ion-col class="messageL" text-center>
+              <ion-img width="63" height="80" margin-top="60" src="./assets/imgs/icon_message.png"></ion-img>
+            </ion-col>
+            <ion-col class="messageR">
+
+              <p class="messageText">12</p>
+              <p class="messageBottomText">New Messages</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-6 col-md-6 col-12>
+        <ion-card>
+          <ion-row>
+            <ion-col class="todoL" text-center>
+              <ion-img width="97" height="89" margin-top="60" src="./assets/imgs/icon_todo.png"></ion-img>
+            </ion-col>
+            <ion-col class="todo">
+              <p class="todoText">12</p>
+              <p class="messageBottomText">Todo</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-lg-3 col-md-3 col-12>
+        <ion-card (click)="showOffer()">
+          <ion-row>
+            <ion-col class="offer">
+              <p class="offerText">{{traffic.countoffer}}</p>
+              <p class="projectBottomText">Offer</p>
+
+              <ion-img width="77" height="93" class="projectBottomImg" src="./assets/imgs/icon_offer.png"></ion-img>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-3 col-md-3 col-12>
+        <ion-card (click)="selectedlist('Selection')">
+          <ion-row>
+            <ion-col class="selection">
+              <p class="selectionText">{{traffic.countorder}}</p>
+              <p class="projectBottomText">Selection</p>
+              <ion-img width="84" height="86" class="projectBottomImg" src="./assets/imgs/icon_selection.png"></ion-img>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-3 col-md-3 col-12>
+        <ion-card (click)="selectedlist('Order')">
+          <ion-row>
+            <ion-col class="order">
+              <p class="orderText">{{traffic.countorder}}</p>
+              <p class="projectBottomText">Order</p>
+              <ion-img width="90" height="88" class="projectBottomImg" src="./assets/imgs/icon_order.png"></ion-img>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col col-lg-3 col-md-3 col-12>
+        <ion-card (click)="goToProjectoveview();">
+          <ion-row>
+            <ion-col class="project">
+              <p class="projectText">{{traffic.countproject}}</p>
+              <p class="projectBottomText">Project</p>
+              <ion-img width="83" height="84" class="projectBottomImg" src="./assets/imgs/icon_project.png"></ion-img>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-lg-12 col-12>
+
+        <ion-card class="request" (click)="placeRequest();">
+          <p text-center class="requestText">Place a request</p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>

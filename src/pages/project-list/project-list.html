@@ -1,0 +1,134 @@
+<!--
+  Generated template for the ProjectOverviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+        <!-- -->
+        <ion-navbar>
+                <img class="logo" src="{{imgUrl}}" />
+                <ion-title>Project List</ion-title>
+                <ion-buttons left>
+                    <button ion-button icon-only menuToggle>
+                        <ion-icon name='menu'></ion-icon>
+                    </button>
+                </ion-buttons>
+            </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+        <div class="pane">
+
+                <ion-row>
+                        <ion-col>
+                                <h4 ion-text color="primary">Actual Projects</h4>
+                        </ion-col>
+                </ion-row>
+                <div>
+                        <ion-grid>
+                                <ion-row>
+                                        <ion-col col-3>
+                                                <button ion-button class="btn-color-red" block > {{listDataR.length}} </button>
+                                        </ion-col>
+                                </ion-row>
+                                <ion-list>
+                                        <ion-item *ngFor="let listDataObj of listDataR"  >
+                                                <ion-row (click)="loadProjectDetails(listDataObj,1,listDataR.length)">
+                                                        <ion-col col-xs-5 col-sm-5 col-md-5 col-lg-5 col-5>
+                                                                <button ion-button class="btn-color-blue" block>{{listDataObj.Name}} </button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.O==1, 'btn-color-amber':listDataObj.O==2, 'btn-color-green':listDataObj.O==3 }"
+                                                                        block>O</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.T==1, 'btn-color-amber':listDataObj.T==2, 'btn-color-green':listDataObj.T==3 }"
+                                                                        block>T</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.B==1, 'btn-color-amber':listDataObj.B==2, 'btn-color-green':listDataObj.B==3 }"
+                                                                        block>B</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.Q==1, 'btn-color-amber':listDataObj.Q==2, 'btn-color-green':listDataObj.Q==3 }"
+                                                                        block>Q</button>
+                                                        </ion-col>
+                                                </ion-row>
+                                        </ion-item>
+                                </ion-list>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <ion-row>
+                                        <ion-col col-3>
+                                                <button ion-button class="btn-color-amber" block> {{listDataA.length}} </button>
+                                        </ion-col>
+                                </ion-row>
+
+                                <ion-list>
+                                        <ion-item *ngFor="let listDataObj of listDataA">
+                                                <ion-row  (click)="loadProjectDetails(listDataObj,2,listDataA.length)">
+                                                        <ion-col col-xs-5 col-sm-5 col-md-5 col-lg-5 col-5>
+                                                                <button ion-button class="btn-color-blue" block>{{listDataObj.Name}} </button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.O==1, 'btn-color-amber':listDataObj.O==2, 'btn-color-green':listDataObj.O==3 }"
+                                                                        block>O</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.T==1, 'btn-color-amber':listDataObj.T==2, 'btn-color-green':listDataObj.T==3 }"
+                                                                        block>T</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.B==1, 'btn-color-amber':listDataObj.B==2, 'btn-color-green':listDataObj.B==3 }"
+                                                                        block>B</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.Q==1, 'btn-color-amber':listDataObj.Q==2, 'btn-color-green':listDataObj.Q==3 }"
+                                                                        block>Q</button>
+                                                        </ion-col>
+                                                </ion-row>
+                                        </ion-item>
+                                </ion-list>
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <ion-row>
+                                        <ion-col col-3>
+                                                <button ion-button class="btn-color-green" block>{{listDataG.length}} </button>
+                                        </ion-col>
+                                </ion-row>
+                                <ion-list>
+                                        <ion-item *ngFor="let listDataObj of listDataG">
+                                                <ion-row (click)="loadProjectDetails(listDataObj,3,listDataG.length)">
+                                                        <ion-col col-xs-5 col-sm-5 col-md-5 col-lg-5 col-5>
+                                                                <button ion-button class="btn-color-blue" block>{{listDataObj.Name}} </button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.O==1, 'btn-color-amber':listDataObj.O==2, 'btn-color-green':listDataObj.O==3 }"
+                                                                        block>O</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.T==1, 'btn-color-amber':listDataObj.T==2, 'btn-color-green':listDataObj.T==3 }"
+                                                                        block>T</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.B==1, 'btn-color-amber':listDataObj.B==2, 'btn-color-green':listDataObj.B==3 }"
+                                                                        block>B</button>
+                                                        </ion-col>
+                                                        <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                                                                <button ion-button [ngClass]="{'btn-color-red':listDataObj.Q==1, 'btn-color-amber':listDataObj.Q==2, 'btn-color-green':listDataObj.Q==3 }"
+                                                                        block>Q</button>
+                                                        </ion-col>
+                                                </ion-row>
+                                        </ion-item>
+                                </ion-list>
+                        </ion-grid>
+                </div>
+        </div>
+</ion-content>

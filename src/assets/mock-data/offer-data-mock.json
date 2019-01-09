@@ -1,0 +1,34 @@
+{
+    "offers": [
+        {
+            "requestId": "11111",
+            "date": "01/01/2017",
+            "rate": "550",
+            "offerManager": "Jhon Wick"
+        },
+        {
+            "requestId": "11111",
+            "date": "01/01/2017",
+            "rate": "770",
+            "offerManager": "Jhon Wick"
+        },
+        {
+            "requestId": "11111",
+            "date": "01/01/2017",
+            "rate": "650",
+            "offerManager": "Jhon Wick"
+        },
+        {
+            "requestId": "11111",
+            "date": "01/01/2017",
+            "rate": "750",
+            "offerManager": "Jhon Wick"
+        },
+        {
+            "requestId": "11111",
+            "date": "01/01/2017",
+            "rate": "850",
+            "offerManager": "Jhon Wick"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+     <img class="logo" src="{{imgUrl}}" /> 
+    <ion-title>Selection List View</ion-title>
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+    <button ion-button (click)="sendorderlisting()" >Send me to Order</button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-row>
+    <ion-col>
+      <br>
+      <br>
+      <h6 ion-text color="primary">Actual Projects</h6>
+    </ion-col>
+  </ion-row>
+  <ion-list *ngFor="let item of parsedjsonArrayForNextProj">
+      {{item.Name}}
+    </ion-list>
+</ion-content>
+<ion-content padding>
+
+</ion-content>

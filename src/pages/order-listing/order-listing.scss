@@ -1,0 +1,30 @@
+page-order-listing {
+    .toolbar-background,ion-icon
+    {
+  		//background: linear-gradient(left, #e60000 0%, #F6E6E6 100%);
+  		background: linear-gradient(left, #212F3D 0%, #212F3D 100%);
+
+    }
+    .toolbar-title, 
+	{
+		color: #FFFFFF ;
+		font-size : 3.2rem;
+		margin-top: 6px;
+    }
+    ion-notused
+	{
+		color: #ffffff;
+    }
+	ion-icon
+	{
+		color: #ffffff;
+    }
+    ion-content
+	{
+		background-color: #FFFFFF;
+		 background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 		background-blend-mode: normal, multiply;	
+ 	}
+
+
+}

@@ -1,0 +1,100 @@
+page-place-request {
+    .headerLogo{
+		margin-right: 3rem;
+		margin-top: .5rem;
+		float: right;
+	}
+
+   ion-card-content 
+   {
+        margin-inside: 1px !important;
+        padding-top: 20pt;
+        font-weight: italics;
+        color: #212F3D;	   
+        background: linear-gradient(to bottom,  #B0BEC5 0% , #B0BEC5 100%);   
+    }
+
+	ion-list-header 
+	{
+    	text-decoration-line: underline;
+    	color: #FFFFFF;
+    }
+
+	.logo
+	{
+		display: inline-block;
+		float: right;
+		height: 50px;
+		width: 80px;
+	}
+
+  .toolbar-background, button, ion-icon
+    {
+  		//background: linear-gradient(left, #e60000 0%, #F6E6E6 100%);
+  		background: linear-gradient(left, #212F3D 0%, #212F3D 100%);
+
+    }
+
+	ion-icon
+	{
+		color: #ffffff;
+	}
+
+	.toolbar-title, 
+	{
+		color: #FFFFFF ;
+		font-size : 3.2rem;
+		margin-top: 6px;
+	}
+
+	
+	 .aa 
+	{
+		margin-top: 40px;
+		margin-left: 100px;
+		margin-right: 100px;	
+		opacity: 0.9;
+		//background: linear-gradient(to bottom,  #B0BEC5 0% , #B0BEC5 100%);   
+		//background-image: linear-gradient(left, #FFEE58 0%, #12fff7 100%);
+		// background-image: linear-gradient(left, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	}
+
+     .bb , .cc, .dd , .ee 
+	{
+		font-size: 2rem;
+		font-weight: bold;
+		color: #5B5959;		
+		opacity: 0.9;
+		//background: linear-gradient(to bottom,  #B0BEC5 0% , #B0BEC5 100%);   
+		//background-image: linear-gradient(left, #FFEE58 0%, #12fff7 100%);
+		// background-image: linear-gradient(left, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	}
+
+
+	 .a
+	{
+		margin-top: 20px;
+		margin-left: 100px;
+		margin-right: 100px;
+		opacity: 0.9;
+		// background-image: linear-gradient(left, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);	
+	}
+
+
+
+     .b , .c , .d , .e , .f
+	{
+		font-size: 2rem;
+		font-weight: bold;
+		color: #5B5959;		
+		opacity: 0.9;
+		// background-image: linear-gradient(left, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	}
+	
+	ion-content
+	{
+		background-color: #FFFFFF;
+		 background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 		background-blend-mode: normal, multiply;	
+ 	}
+}

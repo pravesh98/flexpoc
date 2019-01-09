@@ -1,0 +1,26 @@
+page-login {
+    
+    .headerLogo{
+		margin-right: 3rem;
+		margin-top: .5rem;
+		float: right;
+	}
+    
+    .master {
+        margin-top: -5px;
+        margin-bottom: 25px;
+    }
+    
+    .err{
+        color: red;
+    }
+
+    .login-box{
+        background-color: rgba(6, 102, 126, 0.5);
+        padding: 50px;
+        padding-top: 80px;  
+        padding-bottom: 10px; 
+        margin-bottom: 40px;
+    }
+
+}

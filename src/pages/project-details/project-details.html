@@ -1,0 +1,91 @@
+<!--
+  Generated template for the ProjectOverviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <!-- -->
+        <ion-navbar>
+            <img class="logo" src="{{imgUrl}}" />
+            <ion-title>Project Overview</ion-title>
+            <ion-buttons left>
+                <button ion-button icon-only menuToggle>
+                    <ion-icon name='menu'></ion-icon>
+                </button>
+            </ion-buttons>
+        </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <div class="pane">
+
+        <ion-row>
+            <ion-col>
+                <h4 ion-text color="primary">Actual Projects</h4>
+            </ion-col>
+        </ion-row>
+                <ion-row>
+                    <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                        <button ion-button [ngClass]="{'btn-color-red':trafficSign==1, 'btn-color-amber':trafficSign==2, 'btn-color-green':trafficSign==3 }" block>{{colorCount}}</button>
+                    </ion-col>
+                    <ion-col col-xs-2 col-sm-2 col-md-2 col-lg-2 col-2>
+                    </ion-col>
+                    <ion-col col-xs-1.75 col-sm-1.75 col-md-1.75 col-lg-1.75 col-1.75>
+                    </ion-col>
+                    <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                        <button ion-button [ngClass]="{'btn-color-red':dataReceived.O==1, 'btn-color-amber':dataReceived.O==2, 'btn-color-green':dataReceived.O==3 }"
+                            block>O</button>
+                    </ion-col>
+                    <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                        <button ion-button [ngClass]="{'btn-color-red':dataReceived.T==1, 'btn-color-amber':dataReceived.T==2, 'btn-color-green':dataReceived.T==3 }"
+                            block>T</button>
+                    </ion-col>
+                    <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                        <button ion-button [ngClass]="{'btn-color-red':dataReceived.B==1, 'btn-color-amber':dataReceived.B==2, 'btn-color-green':dataReceived.B==3 }"
+                            block>B</button>
+                    </ion-col>
+                    <ion-col col-xs-1.25 col-sm-1.25 col-md-1.25 col-lg-1.25 col-1.25>
+                        <button ion-button [ngClass]="{'btn-color-red':dataReceived.Q==1, 'btn-color-amber':dataReceived.Q==2, 'btn-color-green':dataReceived.Q==3 }"
+                            block>Q</button>
+                    </ion-col>
+                </ion-row>
+                <div class="bg-project">
+                        <ion-grid>
+           
+                <ion-row>
+                    <ion-col col-6>
+                        <button ion-button  block> {{dataReceived.Name}} </button>
+                    </ion-col>
+                    <ion-col col-6>
+                        <button ion-button  block> Contact </button>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-6>
+
+                    </ion-col>
+                    <ion-col col-6>
+                        <button ion-button  block> History </button>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-6>
+
+                    </ion-col>
+                    <ion-col col-6>
+                        <button ion-button block> Download Report </button>
+                    </ion-col>
+                </ion-row>
+                 <ion-row>
+
+                        <ion-col>
+                            <div class="div-bg" block><br><br><br><br><h6> STATUS DESCRIPTION </h6><br><br><br><br><br> </div>
+                        </ion-col>
+                    </ion-row>
+                
+            </ion-grid>
+        </div>
+    </div>
+</ion-content>
